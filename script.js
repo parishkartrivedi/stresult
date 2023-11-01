@@ -13,7 +13,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // JSON data for 200 students
         const studentData = {
-            // Add data for 200 students here
+            "106": {
+                "name": "Chris Martin",
+                "subject": "Chemistry",
+                "marks": 85,
+                "remarks": "Very Good"
+            }
         };
 
         if (studentData[rollNumber]) {
