@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
     searchButton.addEventListener('click', function() {
         const rollNumber = rollNumberInput.value;
 
-        // JSON data for six students
+        // JSON data for 16 students
         const studentData = {
             "101": {
                 "name": "John Doe",
@@ -43,16 +43,70 @@ document.addEventListener('DOMContentLoaded', function() {
                 "marks": 78,
                 "remarks": "Good"
             },
-             "106": {
-                "name": "Eva Davis",
-                "subject": "Physics",
-                "marks": 78,
-                "remarks": "Good"
-            },
-            "107": {
+            "106": {
                 "name": "Chris Martin",
                 "subject": "Chemistry",
                 "marks": 85,
+                "remarks": "Very Good"
+            },
+            "107": {
+                "name": "Sara Brown",
+                "subject": "Geography",
+                "marks": 82,
+                "remarks": "Very Good"
+            },
+            "108": {
+                "name": "Michael Taylor",
+                "subject": "Biology",
+                "marks": 89,
+                "remarks": "Excellent"
+            },
+            "109": {
+                "name": "Olivia Evans",
+                "subject": "Computer Science",
+                "marks": 93,
+                "remarks": "Excellent"
+            },
+            "110": {
+                "name": "William Johnson",
+                "subject": "Art",
+                "marks": 77,
+                "remarks": "Good"
+            },
+            "111": {
+                "name": "Mia Wilson",
+                "subject": "Physical Education",
+                "marks": 94,
+                "remarks": "Excellent"
+            },
+            "112": {
+                "name": "Liam Moore",
+                "subject": "Music",
+                "marks": 85,
+                "remarks": "Very Good"
+            },
+            "113": {
+                "name": "Sophia Lee",
+                "subject": "Social Studies",
+                "marks": 80,
+                "remarks": "Good"
+            },
+            "114": {
+                "name": "James Johnson",
+                "subject": "Chemistry",
+                "marks": 91,
+                "remarks": "Excellent"
+            },
+            "115": {
+                "name": "Ava Clark",
+                "subject": "Math",
+                "marks": 98,
+                "remarks": "Outstanding"
+            },
+            "116": {
+                "name": "Noah Garcia",
+                "subject": "History",
+                "marks": 87,
                 "remarks": "Very Good"
             }
         };
