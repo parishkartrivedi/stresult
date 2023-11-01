@@ -43,7 +43,13 @@ document.addEventListener('DOMContentLoaded', function() {
                 "marks": 78,
                 "remarks": "Good"
             },
-            "106": {
+             "106": {
+                "name": "Eva Davis",
+                "subject": "Physics",
+                "marks": 78,
+                "remarks": "Good"
+            },
+            "107": {
                 "name": "Chris Martin",
                 "subject": "Chemistry",
                 "marks": 85,
